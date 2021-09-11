@@ -27,6 +27,7 @@ p {
     margin-bottom: 10px;
     padding: 5px;
     border: 1px ridge #CCC;
+    object-fit: contain;
 }
 
 
@@ -42,6 +43,7 @@ p {
     overflow: hidden;
     /*border: 1px solid #ccc;*/
     background-color: #f1f1f1;
+    height: auto;
 }
 
 
