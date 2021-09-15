@@ -3,3 +3,12 @@
     max-width: 800px;
     margin: auto;
 }
+
+
+/*Tab Style*/
+
+.tabcontent {
+    display: none;
+    padding: 0px 20px;
+    border-top: none;
+}
