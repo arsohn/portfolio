@@ -14,11 +14,76 @@
 
 <body>
     <div class="container">
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <header>
+            <a href="index.html"><img src="assets/images/webpage-header.jpg" alt="Header" id="Header"></a>
+            <!--Tabs-->
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'HomePage')">Home Page</button>
+                <button class="tablinks" onclick="openTab(event, 'UALR')" id="defaultOpen">UALR</button>
+                <button class="tablinks" onclick="openTab(event, 'CourseHomepage')">Course Homepage</button>
+                <button class="tablinks" onclick="openTab(event, 'W3C')">W3C</button>
+                <button class="tablinks" onclick="openTab(event, 'LittleRock')">Little Rock</button>
+            </div>
+        </header>
 
-        <script src="" async defer></script>
+        <div class="content">
+            <div id="HomePage" class="tabcontent">
+                <h1>My Assessment</h1>
+                <p>
+                    The most important goal of effective communication is clarity. Clarity is not the same as simplicity. Often, simple things are clear if the message is intended to be brief and small, but often th message is about a complex relationship that can only be
+                    presented with a necessarily large amount of data.
+                </p>
+                <p class="alert">
+                    This complexity can be made to appear clear by effective organization and presentation and need not be reduced to meaningless "bite-sized" chunks of data, as simplifcation usually does.
+                </p>
+                <p>
+                    Clarity refers to the focus on one particualr message or goal at a time, rather than attempting to accomplish too much at once. Simplicity is often responsible for the "dumbling" of information rather than the illumination of it.
+                </p>
+                <h2>Questions</h2>
+                <p>
+                    Please answer the following questions below. Remember to markup the information properly using HTML
+                </p>
+                <h3>Explain the difference between the "alt" attribute and the "title" attribute.</h3>
+                <p>
+                    The "alt" attribute is important text for an image, and is understanable by search engines. It also is used for the visually impared to understand what the image is. The "title" attribute is the text of images and is what the user sees after hoving over
+                    an image, providing a title for an image.
+                </p>
+                <h3>Please provide an example of how to mark up a definition from the dictionary below</h3>
+                <p>
+
+                </p>
+                <h3>Provide an example of link pointing to your favorite site</h3>
+                <p>
+                    My favorite website is &nbsp;<a href="https://100thieves.com/" target="_blank"> 100 Thieves</a>&nbsp;
+                </p>
+            </div>
+        </div>
+
+        <div id="UALR" class="tabcontent">
+            <h1>University of Arkansas at Little Rock</h1>
+
+        </div>
+
+        <div id="CourseHomepage" class="tabcontent">
+
+
+        </div>
+
+        <div id="W3C" class="tabcontent">
+
+
+        </div>
+
+        <div id="LittleRock" class="tabcontent">
+
+
+        </div>
+
+        <footer>
+
+        </footer>
+
+
     </div>
     <!--End Container Div-->
 </body>
