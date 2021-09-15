@@ -1,5 +1,5 @@
 body {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     background-image: url("images/webpage-background.jpg");
     color: #000;
 }
@@ -19,6 +19,14 @@ img {
     max-width: 100%;
 }
 
+.content-img {
+    float: right;
+    border: 3px;
+    border-color: #000;
+    border-style: solid;
+    margin: 10px;
+}
+
 h1 {
     color: blue;
     font-size: 25px;
@@ -35,6 +43,11 @@ h3 {
     font-size: 15px;
 }
 
+h4 {
+    color: blue;
+    font-size: 13px;
+}
+
 p {
     font-size: 12px;
     display: flex;
@@ -42,11 +55,33 @@ p {
     flex-direction: row;
 }
 
+.alert {
+    background-color: white;
+    color: grey;
+}
+
 
 /*Tab Style*/
+
+.tab button:hover {
+    background-color: rgb(211, 211, 211);
+    color: black;
+}
 
 .tabcontent {
     display: none;
     padding: 0px 20px;
     border-top: none;
+}
+
+
+/*End Tab Style*/
+
+footer {
+    background-color: #000;
+    color: #ccc;
+}
+
+h6 {
+    padding: 10px;
 }
