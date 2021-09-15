@@ -16,19 +16,23 @@
     <div class="container">
         <header id="top" class="primary">
             <a href="index.html"><img src="assets/images/webpage-header.jpg" alt="Header" id="Header"></a>
+
+
             <!--Tabs-->
             <div class="tab">
-                <button class="tablinks" onclick="openTab(event, 'HomePage')">Home Page</button>
-                <button class="tablinks" onclick="openTab(event, 'UALR')">UALR</button>
-                <button class="tablinks" onclick="openTab(event, 'CourseHomepage')">Course Homepage</button>
-                <button class="tablinks" onclick="openTab(event, 'W3C')">W3C</button>
-                <button class="tablinks" onclick="openTab(event, 'LittleRock')">Little Rock</button>
+                <button class="tablinks" onclick="openTab(event, 'HomePage')" title="Back to Home Page">Home Page</button>
+                <button class="tablinks" onclick="openTab(event, 'UALR')" title="University of Arkansas at Little Rock Website">UALR</button>
+                <button class="tablinks" onclick="openTab(event, 'CourseHomepage')" title="Capstone 1/2">Course Homepage</button>
+                <button class="tablinks" onclick="openTab(event, 'W3C')" title="W3 Schools Website">W3C</button>
+                <button class="tablinks" onclick="openTab(event, 'LittleRock')" title="City of Little Rock Website">Little Rock</button>
+                <button class="tablinks" onclick="openTab(event, 'Favorite')" title="100 Thieves Website">Favorite Website</button>
             </div>
         </header>
 
         <div class="content">
             <div id="HomePage" class="tabcontent">
                 <h1>My Assessment</h1>
+                <img src="assets/images/webpage-image-1.jpg" alt="Globe/Blueprint image" class="content-img">
                 <p>
                     The most important goal of effective communication is clarity. Clarity is not the same as simplicity. Often, simple things are clear if the message is intended to be brief and small, but often th message is about a complex relationship that can only be
                     presented with a necessarily large amount of data.
@@ -43,15 +47,24 @@
                 <p>
                     Please answer the following questions below. Remember to markup the information properly using HTML
                 </p>
+
                 <h3>Explain the difference between the "alt" attribute and the "title" attribute.</h3>
                 <p>
                     The "alt" attribute is important text for an image, and is understanable by search engines. It also is used for the visually impared to understand what the image is. The "title" attribute is the text of images and is what the user sees after hoving over
                     an image, providing a title for an image.
                 </p>
+
                 <h3>Please provide an example of how to mark up a definition from the dictionary below</h3>
                 <p>
-
+                    This is an example of how a definition is marked up
                 </p>
+                <blockquote>
+                    <dl>
+                        <dt>Definition</dt>
+                        <dd>The meaning of a word.</dd>
+                    </dl>
+                </blockquote>
+
                 <h3>Provide an example of link pointing to your favorite site</h3>
                 <p>
                     My favorite website is &nbsp;<a href="https://100thieves.com/" target="_blank"> 100 Thieves</a>&nbsp;
@@ -73,6 +86,10 @@
 
         <div id="LittleRock" class="tabcontent">
             <h1>City of Little Rock&nbsp;<a href="https://www.littlerock.gov/" target="_blank"> Website</a>&nbsp;</h1>
+        </div>
+
+        <div id="Favorite" class="tabcontent">
+            <h1>This is my favorite website,&nbsp;<a href="https://100thieves.com/" target="_blank"> 100 Thieves</a>&nbsp;</h1>
         </div>
 
         <footer>
