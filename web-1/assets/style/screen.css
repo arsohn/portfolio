@@ -2,6 +2,8 @@ body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     background-image: url("images/webpage-background.jpg");
     color: #000;
+    border: solid black;
+    border-width: thick;
 }
 
 .container {
@@ -62,6 +64,27 @@ p {
 
 
 /*Tab Style*/
+
+.tab {
+    overflow: hidden;
+    border: none;
+    background-color: #000;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+
+.tab button {
+    background-color: #000;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.2s;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #ccc;
+}
 
 .tab button:hover {
     background-color: rgb(211, 211, 211);
