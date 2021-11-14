@@ -2,7 +2,8 @@
 
 body {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    /*background-color: #666;*/
+    background-color: #DADED4;
+    color: #3C403D;
 }
 
 #container {
@@ -41,8 +42,8 @@ p {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    /*border: 1px solid #3C403D;*/
+    background-color: #DADED4;
     height: auto;
 }
 
@@ -64,14 +65,14 @@ p {
 /* Change background color of buttons on hover */
 
 .tab button:hover {
-    background-color: #ddd;
+    background-color: #A3BCB6;
 }
 
 
 /* Create an active/current tablink class */
 
 .tab button.active {
-    background-color: #ccc;
+    border: 2px solid #3C403D;
 }
 
 
